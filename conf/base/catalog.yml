@@ -2,3 +2,13 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+# Raw CSV Data
+train_raw:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/cell2cellholdout.csv
+
+test_raw:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/cell2celltest.csv
+

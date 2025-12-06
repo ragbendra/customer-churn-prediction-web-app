@@ -1,0 +1,15 @@
+# DATA PROFILING PARAMETERS
+random_seed: 42
+test_size: 0.15
+validation_size: 0.15
+
+# NULL HANDLING THRESHOLDS
+missing_threshold_drop: 0.3  # Drop features with >30% nulls
+missing_threshold_flag: 0.05  # Create missing indicators if >5% nulls
+
+# OUTLIER CAPPING
+revenue_cap_percentile: 0.99
+usage_cap_percentile: 0.99
+
+# CLASS IMBALANCE
+smote_ratio: 0.4  # Target 40:60 minority:majority after SMOTE
