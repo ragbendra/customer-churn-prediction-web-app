@@ -6,9 +6,8 @@
 # Raw CSV Data
 train_raw:
   type: pandas.CSVDataSet
-  filepath: data/01_raw/cell2cellholdout.csv
+  filepath: data/01_raw/cell2celltrain.csv
 
 test_raw:
   type: pandas.CSVDataSet
-  filepath: data/01_raw/cell2celltest.csv
-
+  filepath: data/01_raw/cell2cellholdout.csv
